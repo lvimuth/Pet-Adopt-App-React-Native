@@ -9,7 +9,16 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Hello Bye</Text>
+      <Text
+        style={{
+          fontFamily: "outfit",
+          fontSize: 24,
+          fontWeight: "bold",
+          color: "#333",
+        }}
+      >
+        Hello Bye
+      </Text>
     </View>
   );
 }
